@@ -1,0 +1,19 @@
+div.container {
+    text-align: center;
+  }
+  
+  ol.myOL {
+    display: inline-block;
+    text-align: center;
+  }
+  ul.myUL{
+    display: inline-block;
+    text-align: center;
+  }
+  .color-purple{
+    color:blueviolet;
+  }
+  p.solid {
+    border-style: solid;
+    border-color: greenyellow;
+  }
