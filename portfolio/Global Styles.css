@@ -1,0 +1,92 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+  background-color: #007bff; /* Blue background */
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar-nav .nav-link {
+  color: #fff; /* White text color */
+  margin-right: 10px;
+  text-transform: uppercase;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f8f9fa; /* Light gray text color on hover */
+}
+
+/* Home Section Styles */
+#home {
+  background-color: #f0f3f5; /* Light blue background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.display-4 {
+  font-size: 4rem; /* Larger font size */
+  line-height: 1.2;
+  color: #007bff; /* Blue text color */
+}
+
+.text-brand {
+  color: #007bff; /* Blue text color */
+  font-weight: bold; /* Make the name bold */
+}
+
+.btn-brand {
+  background-color: #007bff; /* Blue button background */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 12px 24px; /* Slightly larger padding */
+  border-radius: 30px; /* Rounder button */
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-brand:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* About Section Styles */
+#about {
+  background-color: #f8f9fa; /* Light gray background */
+  padding: 40px 0;
+}
+
+h6.text-brand {
+  color: #007bff; /* Blue text color for section titles */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #007bff; /* Blue background */
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  color: #f8f9fa; /* White link color */
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer a:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
+
+/* Additional Custom Styles */
+/* Add your custom styles here if needed */
